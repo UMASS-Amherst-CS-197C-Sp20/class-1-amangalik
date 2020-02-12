@@ -32,6 +32,10 @@ int main(int argc, char** argv){
 	*/
 	printf("#####student code start#####\n");
 	//////////Your code here//////////
+	
+	double type_double = 0;
+	float type_float = 0;
+	printf("size of double+float: %lu\n", sizeof(type_double+type_float));
 
 	//example
 	int type_int = 0;
@@ -81,6 +85,7 @@ int main(int argc, char** argv){
 	*/
 	printf("#####student code start#####\n");
     //////////Your code here//////////
+
 
 	//////////End of the code/////////
 	printf("#####student code end#####\n");
@@ -144,5 +149,6 @@ void func1(int* i){
 	TODO:
 	Add a function that name as "print_string", which takes a string
 	as input and no output.
-	This function needs to print the string in the concole.
+	This function needs to print the string in the concole. Time to get funky
 */
+
